@@ -13,7 +13,7 @@ With this repository, you can effortlessly retrieve and analyze leaderboard data
 🔗 https://hearthstone.blizzard.com/fr-fr/community/leaderboards/?region=EU&leaderboardId=battlegrounds
 
 - The leaderboard shows top players by **season** and **region** (EU, NA, ASIA).  
-- **Currently**, only **Season 3 – EU** data has been collected (see [battlegrounds.csv :](`data/s3/eu/battlegrounds.csv`)).  
+- **Currently**, only **Season 3 – EU** data has been collected (see [battlegrounds.csv :](data/s3/eu/battlegrounds.csv)).  
 - Feel free to gather other seasons or regions, but **please do not re-run** the scraper on already-extracted data to avoid overloading Blizzard’s public API.  
 
 ---
