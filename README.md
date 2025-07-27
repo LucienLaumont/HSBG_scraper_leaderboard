@@ -32,9 +32,7 @@ With this repository, you can effortlessly retrieve and analyze leaderboard data
 ```
 
 data/
-└── s3/
-└── eu/
-└── battlegrounds.csv   # Season 3 – EU leaderboard export
+└── s3/eu/battlegrounds.csv     # Season 3 – EU leaderboard export
 
 ````
 
