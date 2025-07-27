@@ -7,16 +7,16 @@ class LeaderboardApiSpider(scrapy.Spider):
     allowed_domains = ["hearthstone.blizzard.com"]
 
     custom_settings = {
-        "DOWNLOAD_DELAY": 0.1,  # ralentir un peu pour ne pas être trop agressif
+        "DOWNLOAD_DELAY": 0.5,
         "CONCURRENT_REQUESTS": 8,
-        "FEED_EXPORT_ENCODING": "utf-8",  # encodage clean pour CSV/JSON
+        "FEED_EXPORT_ENCODING": "utf-8",
     }
 
     def start_requests(self):
         total_pages = 50637
         base_url = "https://hearthstone.blizzard.com/en-us/api/community/leaderboardsData"
         for page in range(1, total_pages + 1):
-            url = f"{base_url}?region=EU&leaderboardId=battlegrounds&seasonId=8&page={page}"
+            url = f"{base_url}?region=EU&leaderboardId=battlegrounds&seasonId=15&page={page}"
             yield scrapy.Request(url, callback=self.parse_page)
 
     def parse_page(self, response):
