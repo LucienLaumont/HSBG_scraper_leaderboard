@@ -42,7 +42,7 @@ data/
 1. Navigate to the scraper directory:  
    ```bash
    cd hsbg_scraper_leaderboard
-````
+    ```
 
 2. Activate your virtual environment and install dependencies:
 
@@ -56,5 +56,3 @@ data/
    ```bash
    scrapy crawl leaderboard -o data/s3/eu/battlegrounds.csv
    ```
-
-```
