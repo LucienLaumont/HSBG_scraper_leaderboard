@@ -1,3 +1,6 @@
+✨ If you enjoy this work and the tool, please consider giving this repository a ⭐!  
+A script to look up your rank by username is coming soon.
+
 # 🎮 Hearthstone Battlegrounds – Leaderboard Analysis
 
 > 📊 Dive into the Hearthstone Battlegrounds leaderboard data and uncover player performance insights!
