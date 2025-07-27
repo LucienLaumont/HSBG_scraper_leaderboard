@@ -1,0 +1,1 @@
+# **Hearthstone Battlegrounds - LeaderBoard Analysis**
