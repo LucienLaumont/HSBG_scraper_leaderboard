@@ -68,6 +68,14 @@ A comprehensive analysis for **Season 3** on the **EU server** has been carried
 
 Below is an example figure from the analysis. You can download the full‑resolution PNG:
 
-![Rating Distribution & Cumulative](figures/rating_distribution.png)
+English Analysis :
 
-[⬇️ Download the figure (PNG)](figures/rating_distribution.png)
+![Rating Distribution & Cumulative FR](figures/HSBG_s3_eu_analyse_EN.png)
+
+[⬇️ Download the figure (PNG)](figures/HSBG_s3_eu_analyse_EN.png)
+
+French Analysis :
+
+![Rating Distribution & Cumulative FR](figures/HSBG_s3_eu_analyse_FR.png)
+
+[⬇️ Download the figure (PNG)](figures/HSBG_s3_eu_analyse_FR.png)
