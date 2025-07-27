@@ -56,3 +56,17 @@ data/
    ```bash
    scrapy crawl leaderboard -o data/s3/eu/battlegrounds.csv
    ```
+
+## 📊 Season 3 EU Analysis
+
+A comprehensive analysis for **Season 3** on the **EU server** has been carried out in the Jupyter notebook [`analysis_hsbg_s3.ipynb`](analysis_hsbg_s3.ipynb). In this notebook, you will find:
+
+- **Key descriptive statistics**: mean, median, first and third quartiles, min/max.
+- **Bin‑based distribution**: number and percentage of players per 100‑point rating interval, plus cumulative probabilities.
+- **Visualizations**: histogram and cumulative distribution plots.
+
+Below is an example figure from the analysis. You can download the full‑resolution PNG:
+
+![Rating Distribution & Cumulative](figures/rating_distribution.png)
+
+[⬇️ Download the figure (PNG)](figures/rating_distribution.png)
