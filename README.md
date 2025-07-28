@@ -40,9 +40,9 @@ data/
 
 ## ▶️ Running the Scraper
 
-1. Navigate to the scraper directory:  
+1. After clonning the project you must enter this command:  
    ```bash
-   cd hsbg_scraper_leaderboard
+   cd HSBG_scraper_leaderboard
     ```
 
 2. Activate your virtual environment and install dependencies:
