@@ -58,7 +58,7 @@ data/
 
    ```bash
    cd hsbg_scraper_leaderboard
-   scrapy crawl leaderboard -o data/{season}/{region}/battlegrounds.csv  #Replace {...} by your season/region
+   scrapy crawl leaderboard_api -o battlegrounds.csv
    ```
 
 ## 📊 Season 3 EU Analysis
