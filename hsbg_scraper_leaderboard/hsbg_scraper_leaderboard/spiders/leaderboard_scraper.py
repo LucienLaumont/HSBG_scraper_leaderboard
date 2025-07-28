@@ -1,8 +1,8 @@
 import scrapy
 import json
 
-SEASON = 14
-REGION = "AP"
+SEASON = 13
+REGION = "EU"
 
 
 class LeaderboardApiSpider(scrapy.Spider):
@@ -16,7 +16,7 @@ class LeaderboardApiSpider(scrapy.Spider):
     }
 
     def start_requests(self):
-        total_pages = 323
+        total_pages = 659
         base_url = "https://hearthstone.blizzard.com/en-us/api/community/leaderboardsData"
         for page in range(1, total_pages + 1):
             url = f"{base_url}?region={REGION}&leaderboardId=battlegrounds&seasonId={str(SEASON)}&page={page}"
