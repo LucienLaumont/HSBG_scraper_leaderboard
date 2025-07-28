@@ -1,6 +1,8 @@
 ✨ If you enjoy this work and the tool, please consider giving this repository a ⭐!  
 A script to look up your rank by username is coming soon.
 
+You can contact me at laumont.lucien@gmail.com
+
 # 🎮 Hearthstone Battlegrounds – Leaderboard Analysis
 
 > 📊 Dive into the Hearthstone Battlegrounds leaderboard data and uncover player performance insights!
@@ -55,7 +57,8 @@ data/
 3. Launch the Scrapy spider:
 
    ```bash
-   scrapy crawl leaderboard -o data/s3/eu/battlegrounds.csv
+   cd hsbg_scraper_leaderboard
+   scrapy crawl leaderboard -o data/{season}/{region}/battlegrounds.csv  #Replace {...} by your season/region
    ```
 
 ## 📊 Season 3 EU Analysis
