@@ -2,7 +2,7 @@ import scrapy
 import json
 
 SEASON = 11
-REGION = "EU"
+REGION = "PA"
 
 
 class LeaderboardApiSpider(scrapy.Spider):
