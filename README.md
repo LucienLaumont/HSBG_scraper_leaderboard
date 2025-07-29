@@ -89,3 +89,9 @@ In the Jupyter notebook [`evolution_top_leaderboard.ipynb`](evolution_top_leader
 ### Comparison of MMR differences among the top X players in each region
 
 ![Comparison of Top Leaderboard Player Counts Between EU & NA](figures/difference_top_leaderboard.png)
+
+--- 
+
+>Oh you’re reading this... thank you for making it this far! It’s likely that new graphs and comparisons will be added as the project evolves.
+>If you appreciate the work and the tool, feel free to drop a ⭐.
+>For feedback or questions, you can reach me at laumontlucien@gmail.com.
