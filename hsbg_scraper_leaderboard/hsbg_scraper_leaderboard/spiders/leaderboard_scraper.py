@@ -1,7 +1,7 @@
 import scrapy
 import json
 
-SEASON = 10
+SEASON = 9
 REGION = "NA"
 
 
