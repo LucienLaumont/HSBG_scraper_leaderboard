@@ -6,6 +6,7 @@ You can contact me at laumont.lucien@gmail.com
 # 🎮 Hearthstone Battlegrounds – Leaderboard Analysis
 
 > 📊 Dive into the Hearthstone Battlegrounds leaderboard data and uncover player performance insights!
+> 🚫 The API we used appears to be retrieving incorrect data for the AP leaderboards—particularly for seasons 6 and 7. All the figures are actually based on the EU and NA datasets.
 
 ---
 
@@ -15,7 +16,7 @@ With this repository, you can effortlessly retrieve and analyze leaderboard data
 🔗 https://hearthstone.blizzard.com/fr-fr/community/leaderboards/?region=EU&leaderboardId=battlegrounds
 
 - The leaderboard shows top players by **season** and **region** (EU, NA, ASIA).  
-- **Currently**, only **Season 3 – EU** data has been collected (see [battlegrounds.csv](data/s3/eu/battlegrounds.csv)).  
+- **Currently**, almost every seasons are in the data folder (see [battlegrounds.csv](data/s3/eu/battlegrounds.csv) for the EU-S3 for exemple).  
 - Feel free to gather other seasons or regions, but **please do not re-run** the scraper on already-extracted data to avoid overloading Blizzard’s public API.  
 
 ---
@@ -78,3 +79,18 @@ Below is an example figure from the analysis. You can download the full‑resolu
 [French version :](figures/HSBG_s3_eu_analyse_FR.png)
 
 ![Rating Distribution & Cumulative FR](figures/HSBG_s3_eu_analyse_FR.png)
+
+## 🆚 All season EU Analysis (Comparison between NA & EU)
+
+In the Jupyter notebook [`evolution_top_leaderboard.ipynb`](evolution_top_leaderboard.ipynb), we performed a focused analysis of Seasons 3–9 to compare the total number of players exceeding 8,000 MMR, evaluate how each region’s player base dominates another, and identify which region appears to reach the highest MMR ceiling.
+
+- **Key focus:** players > 8,000 MMR, inter‑regional dominance, and peak regional MMR cap.
+
+
+![Number of Players Above 8,000 MMR](figures/number_of_players_above_8k.png)
+
+![Difference in Player Base Between EU & NA (Bar Chart)](figures/difference_players_number_NA_EU.png)
+
+![Difference in Player Base Between EU & NA](figures/difference_NA_EU.png)
+
+![Comparison of Top Leaderboard Player Counts Between EU & NA](figures/difference_top_leaderboard.png)
