@@ -76,10 +76,6 @@ Below is an example figure from the analysis. You can download the full‑resolu
 
 ![Rating Distribution & Cumulative EN](figures/HSBG_s3_eu_analysis_EN.png)
 
-[French version :](figures/HSBG_s3_eu_analyse_FR.png)
-
-![Rating Distribution & Cumulative FR](figures/HSBG_s3_eu_analyse_FR.png)
-
 ## 🆚 All season EU Analysis (Comparison between NA & EU)
 
 In the Jupyter notebook [`evolution_top_leaderboard.ipynb`](evolution_top_leaderboard.ipynb), we performed a focused analysis of Seasons 3–9 to compare the total number of players exceeding 8,000 MMR, evaluate how each region’s player base dominates another, and identify which region appears to reach the highest MMR ceiling.
