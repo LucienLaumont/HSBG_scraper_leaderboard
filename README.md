@@ -82,7 +82,7 @@ In the Jupyter notebook [`evolution_top_leaderboard.ipynb`](evolution_top_leader
 
 - **Key focus:** players > 8,000 MMR, inter‑regional dominance, and peak regional MMR cap.
 
-### Numbers of player Above 8,000 MMR ( + regions factors)
+### Numbers of player Above 8,000 MMR (+ regions factors)
 
 ![Number of Players Above 8,000 MMR](figures/number_of_players_above_8k_triple_graph.png)
 
