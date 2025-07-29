@@ -82,11 +82,10 @@ In the Jupyter notebook [`evolution_top_leaderboard.ipynb`](evolution_top_leader
 
 - **Key focus:** players > 8,000 MMR, inter‑regional dominance, and peak regional MMR cap.
 
+### Numbers of player Above 8,000 MMR ( + regions factors)
 
-![Number of Players Above 8,000 MMR](figures/number_of_players_above_8k_double_graph.png)
+![Number of Players Above 8,000 MMR](figures/number_of_players_above_8k_triple_graph.png)
 
-![Difference in Player Base Between EU & NA (Bar Chart)](figures/difference_players_number_NA_EU.png)
-
-![Difference in Player Base Between EU & NA](figures/difference_NA_EU.png)
+### Comparison of MMR differences among the top X players in each region
 
 ![Comparison of Top Leaderboard Player Counts Between EU & NA](figures/difference_top_leaderboard.png)
