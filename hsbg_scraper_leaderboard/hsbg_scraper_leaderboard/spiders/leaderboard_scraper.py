@@ -1,8 +1,8 @@
 import scrapy
 import json
 
-SEASON = 8
-REGION = "NA"
+SEASON = 15
+REGION = "EU"
 
 
 class LeaderboardApiSpider(scrapy.Spider):
